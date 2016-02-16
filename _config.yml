@@ -1,8 +1,18 @@
-layout_spectrum: 0.3138548
-typography_spectrum: 0.3289253
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0
 color:
   saturation: 0.8548144
-  lightness: 0.4720878
   brandStrength: 0.8272636
   rhythmicContrast: 0.6715687
   brandColors:
@@ -11,4 +21,6 @@ color:
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
+  lightness: 0.4720878
+layout_spectrum: 0.3138548
 name: nijube

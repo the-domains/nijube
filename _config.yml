@@ -4,23 +4,23 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 typography_spectrum: 0
 color:
-  saturation: 0.8548144
-  brandStrength: 0.8272636
-  rhythmicContrast: 0.6715687
+  saturation: 0.7604539
+  brandStrength: 0
+  lightness: 0.5633214
   brandColors:
-    - '#B8B42D'
-    - '#697A21'
-    - '#FFFCE8'
-    - '#3E363F'
-    - '#DD403A'
-  lightness: 0.4720878
+    - '#FAF6EA'
+    - '#412842'
+    - '#DE5E66'
+    - '#886F64'
+    - '#E0C887'
+  rhythmicContrast: 0
 layout_spectrum: 0.3138548
 name: nijube
